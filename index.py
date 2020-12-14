@@ -34,7 +34,7 @@ def romanToDecimal(str):
                 i = i + 2
         else:
             result = result + s1
-            i = i + 2
+            i = i + 1
     return result
 
 print("Decimal form from Roman is")
